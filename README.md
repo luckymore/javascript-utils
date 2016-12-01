@@ -1,7 +1,7 @@
 # javascript-utils
 
 #### responseHeaderToObject
-    请求头`response Headers`字符串信息转化为`Object`
+Get the `response Headers` as an `Object`
 ```javascript
 var req = new XMLHttpRequest();
 req.open('GET', document.location, false);
